@@ -69,3 +69,30 @@ button {
     object-fit: contain;
 }
 /* ! Information css */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.infoImagesContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5vh;
+
+}
+.infoImages{
+    width: 200px;
+    border:8px solid rgb(0, 132, 255);
+    border-radius: 16px;
+}
+.pairs {
+    margin: 8px 16px 8px 16px;
+}
+.pairs p {
+    text-align: center;
+}
