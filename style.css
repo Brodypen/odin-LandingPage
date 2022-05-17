@@ -91,8 +91,27 @@ h2 {
     border-radius: 16px;
 }
 .pairs {
-    margin: 8px 16px 8px 16px;
+    margin: 8px 32px 8px 32px;
 }
 .pairs p {
     text-align: center;
+    color: #1f2937;
+}
+/* quote Section */
+.quoteContainer {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    align-items: center;
+}
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic
+}
+.quoteAuthor {
+    font-size: 24px;
+    color:#1f2937;
+    padding-top: 32px;
 }
