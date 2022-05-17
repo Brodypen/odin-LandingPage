@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
 }
+/* Introduction CSS */
 .headerContainer {
   display: flex;
   background-color: #1f2937;
@@ -67,3 +68,4 @@ button {
     height: auto;
     object-fit: contain;
 }
+/* ! Information css */
