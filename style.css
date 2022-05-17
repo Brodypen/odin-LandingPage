@@ -14,23 +14,24 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+      padding-left: 10vw;
+    padding-right: 10vw;
 }
 header {
   font-size: 24px;
   color: #f9faf8;
-}
-.rightLinks {
-  gap: 16px;
 }
 .rightLinks,
 p {
   color: #e5e7eb;
   font-size: 18px;
 }
+
 a {
   text-decoration: none;
   color: inherit;
+  padding-left: 16px; 
 }
 h1 {
   font-size: 48px;
@@ -40,6 +41,8 @@ h1 {
 .intro {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
