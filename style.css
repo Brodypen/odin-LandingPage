@@ -10,13 +10,15 @@ body {
   padding: 0;
   margin: 0;
   flex-direction: column;
+  padding-bottom: 10vh;
 }
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-      padding-left: 10vw;
-    padding-right: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-top: 16px;
 }
 header {
   font-size: 24px;
@@ -26,23 +28,42 @@ header {
 p {
   color: #e5e7eb;
   font-size: 18px;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  padding-left: 16px; 
+  padding-left: 16px;
 }
 h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  margin: 0;
+  padding: 0;
 }
 .intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 8px 32px 8px 32px;
+  margin: 4px;
+  border-radius: 15%;
+
+}
+.introImage {
+    padding-left: 300px;
+    width: 400px;
+    height: auto;
+    object-fit: contain;
 }
