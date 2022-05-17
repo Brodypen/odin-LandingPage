@@ -60,68 +60,89 @@ button {
   padding: 8px 32px 8px 32px;
   margin: 4px;
   border-radius: 15%;
-
 }
 .introImage {
-    padding-left: 300px;
-    width: 400px;
-    height: auto;
-    object-fit: contain;
+  padding-left: 300px;
+  width: 400px;
+  height: auto;
+  object-fit: contain;
 }
 /* ! Information css */
 .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h2 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 .infoImagesContainer {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 5vh;
-
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5vh;
 }
-.infoImages{
-    width: 200px;
-    border:8px solid rgb(0, 132, 255);
-    border-radius: 16px;
+.infoImages {
+  width: 200px;
+  border: 8px solid rgb(0, 132, 255);
+  border-radius: 16px;
 }
 .pairs {
-    margin: 8px 32px 8px 32px;
+  margin: 8px 32px 8px 32px;
 }
 .pairs p {
-    text-align: center;
-    color: #1f2937;
+  text-align: center;
+  color: #1f2937;
 }
 /* quote Section */
 .quoteContainer {
-    background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    padding: 10vh;
-    align-items: center;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  align-items: center;
 }
 .quote {
-    color: #1f2937;
-    font-size: 36px;
-    font-style: italic
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
 }
 .quoteAuthor {
-    font-size: 24px;
-    color:#1f2937;
-    padding-top: 32px;
+  font-size: 24px;
+  color: #1f2937;
+  padding-top: 32px;
 }
 footer {
-    background-color: #1f2937;
-    display: flex;
-    flex-direction: column;
-    height: 4vh;
-    padding-top: 2vh;
-    align-items: center;
-    color: white;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  height: 4vh;
+  padding-top: 2vh;
+  align-items: center;
+  color: white;
 }
 /* contactForm */
+.contactForm {
+  display: flex;
+  margin: 5vh 10vw 5vh 10vw;
+}
+.insideContactForm {
+  background-color: #3882f6;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 4vh 8vw 4vh 8vw;
+  border-radius: 25px;
+}
+.contactButton {
+  padding: 0px 48px 0px 48px;
+  border: 2px solid white;
+  font-size: 16px;
+}
+.contactHeader {
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
