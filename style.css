@@ -31,10 +31,11 @@ p {
   font-size: 18px;
   margin: 0;
 }
-
 a {
   text-decoration: none;
   color: inherit;
+}
+.rightLinks a {
   padding-left: 16px;
 }
 h1 {
@@ -58,8 +59,9 @@ button {
   color: white;
   border: none;
   padding: 8px 32px 8px 32px;
-  margin: 4px;
+  margin: 8px;
   border-radius: 15%;
+  text-align: center;
 }
 .introImage {
   padding-left: 300px;
